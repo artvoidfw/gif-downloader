@@ -1,40 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# GIFSNAP ⚡
 
-## Getting Started
+> **Modern GIF Downloader & Video-to-GIF Converter**  
+> Built with Next.js, Tailwind CSS, and `gifenc` client-side encoder.  
+> Created by **[Artvoid](https://artvoid.vercel.app/)** • [GitHub](https://github.com/artvoidfw)
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🎯 **Direct GIF & Video Downloader**:
+  - Automatically extracts high-resolution direct `.gif` and `.mp4` streams from **Tenor**, **Giphy**, **Reddit**, **Imgur**, and direct URLs.
+  - Multi-format downloading: Original GIF, MP4 Video, WebM Video, and APNG.
+  - Built-in CORS proxy stream (`/api/proxy-media`) to bypass cross-origin browser restrictions.
+
+- 🎬 **Video to GIF Studio**:
+  - 100% in-browser client-side video conversion with zero server latency.
+  - Supports MP4, WebM, MOV, and MKV.
+  - Timeline trimming with Start & End sliders.
+  - Customizable FPS (8, 12, 16, 20, 24), Resolution/Width (240p to 640p), and Playback speed (0.5x to 2.0x).
+  - NeuQuant color depth quantizer (32, 64, 128, 256 colors).
+  - Reverse playback and Meme / Caption text overlay generator.
+  - 1-click test sample video generator.
+
+- 🔍 **Discover & Explore Engine**:
+  - Fast categorized search across Trending, Reactions, Anime, Memes, Gaming, Animals, Movies, and Sports.
+
+- 🧩 **Frame Splitter & ZIP Exporter**:
+  - Deconstruct any GIF into individual high-definition PNG frames.
+  - 1-click batch ZIP download or single frame extraction.
+
+- 🌍 **18 World Languages**:
+  - Complete native translation dictionary across 18 major world languages:
+    - 🇦🇿 Azərbaycan, 🇺🇸 English, 🇹🇷 Türkçe, 🇪🇸 Español, 🇷🇺 Русский, 🇰🇷 한국어, 🇯🇵 日本語, 🇸🇦 العربية (RTL), 🇩🇪 Deutsch, 🇫🇷 Français, 🇨🇳 简体中文, 🇮🇹 Italiano, 🇧🇷 Português, 🇮🇳 हिन्दी, 🇮🇩 Bahasa Indonesia, 🇳🇱 Nederlands, 🇵🇱 Polski, 🇮🇷 فارسی (RTL).
+
+- 🎨 **Minimalist Architecture (Zero Gradients)**:
+  - High-contrast pure obsidian dark (`#09090b`) and clean paper light theme.
+  - Razor-sharp borders, solid accents, and strictly zero gradient styling.
+
+- 🚀 **Full Search Engine Optimization (SEO)**:
+  - Google Schema.org structured data (`WebApplication`, `WebSite`, `FAQPage`).
+  - Multilingual `sitemap.xml` with Google `hreflang` alternates.
+  - Full Open Graph, Twitter Cards, `manifest.json`, and `robots.txt`.
+
+---
+
+## 🛠️ Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/artvoidfw/gif-downloader.git
+
+# Navigate to project directory
+cd gif-downloader
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 📦 Production Build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👨‍💻 Author
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+**Artvoid**
+- Portfolio: [https://artvoid.vercel.app/](https://artvoid.vercel.app/)
+- GitHub: [@artvoidfw](https://github.com/artvoidfw)

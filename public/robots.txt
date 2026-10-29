@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /api/proxy-media
+
+# Search Engine Specific
+User-agent: Googlebot
+Allow: /
+Disallow: /api/proxy-media
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/proxy-media
+
+User-agent: Yandex
+Allow: /
+Disallow: /api/proxy-media
+
+# Host & Sitemap
+Sitemap: https://gifsnap.vercel.app/sitemap.xml
+Host: https://gifsnap.vercel.app
+
