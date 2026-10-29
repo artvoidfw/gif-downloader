@@ -26,6 +26,8 @@ export default function Document() {
           content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
         <link rel="canonical" href="https://gifsnap.vercel.app/" />
+        <meta name="google-site-verification" content="google418aadb559aa463e" />
+        <meta name="google-site-verification" content="418aadb559aa463e" />
 
         {/* Mobile & App Theme */}
         <meta name="theme-color" content="#09090b" />
